@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 function Base() {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
+    <footer className="p-4 bg-white sm:p-6 dark:bg-black">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <a href="https://flowbite.com" className="flex items-center">
@@ -15,7 +15,7 @@ function Base() {
             <h2 className="text-base font-semibold text-gray-900 uppercase dark:text-white">
               Email:
             </h2>
-            <p className="text-base font-thin text-gray-900  dark:text-white">
+            <p className="text-lg font-normal text-gray-900  dark:text-white">
               example@gmail.com
             </p>
           </div>
@@ -23,7 +23,7 @@ function Base() {
             <h2 className="text-base font-semibold uppercase text-gray-800 dark:text-white">
               Phone.No:
             </h2>
-            <p className="text-lg font-thin text-gray-900  dark:text-white">
+            <p className="text-lg font-normal text-gray-900  dark:text-white">
               +91 0987171126
             </p>
           </div>
@@ -34,9 +34,9 @@ function Base() {
           </div>
         </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr className="my-6 border-gray-100 sm:mx-auto dark:border-gray-500 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span className="text-sm text-gray-100 sm:text-center dark:text-gray-400">
           © 2022{" "}
           <a href="https://flowbite.com" className="hover:underline">
             Flowbite™
@@ -46,7 +46,7 @@ function Base() {
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            className="text-gray-100 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-5 h-5"
@@ -63,7 +63,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            className="text-gray-100 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-5 h-5"
@@ -80,7 +80,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            className="text-gray-100 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-5 h-5"
@@ -93,7 +93,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            className="text-gray-100 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-5 h-5"
@@ -110,7 +110,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            className="text-gray-100 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-5 h-5"
