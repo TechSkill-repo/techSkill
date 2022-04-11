@@ -1,49 +1,42 @@
 import React from "react";
-import fend from "../assets/fend.png";
-import frontend from "../assets/frontend.png";
+import { BiRupee } from "react-icons/bi";
 
-function Cards({ title, img, text, text1, text2, button }) {
+function Cards({ title, img, timing, pricing }) {
   return (
-    <div className="flex-col h-[70vh] cursor-pointer">
-      <div className="max-w-sm rounded h-full overflow-hidden shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] hover:shadow-2xl hover:scale-[1.02] transition-all ease-in-out duration-150 ">
-        <div className="relative h-[35%]">
-          <div className="absolute top-0 bg-gray-200 bg-opacity-10  left-0 w-full h-full"></div>
-          <img
-            src={img}
-            alt="Sunset in the mountains"
-            className=" h-full w-full object-cover"
-          />
-        </div>
-        <div className="text-center px-6 py-4">
-          <div className="font-extrabold text-center text-gray-600 text-2xl p-4 mb-2">
+    <div className="h-auto w-full cursor-pointer">
+      <div className=" w-full flex flex-col rounded h-full overflow-hidden shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] hover:shadow-2xl hover:scale-[1.03] transition-all ease-in-out duration-150 ">
+        <img
+          src={img}
+          alt="Sunset in the mountains"
+          className=" h-[30vh] w-full  object-cover"
+        />
+        <div className="p-6 w-full py-6 my-2">
+          <div className="font-semibold text-left text-gray-800 text-xl mb-2">
             {title}
           </div>
-          <p className="text-gray-700 font-medium tracking-wide text-base">
-            {text}
-            <b>{text1}</b>
+          <div className="font-light text-left text-gray-600 text-md mb-2">
+            🕐 More than {timing} hours
+          </div>
+          <div className="font-light text-left my-2 flex items-center text-gray-700 text-md mb-0">
+            🌎 English Hindi
+          </div>
+          <p className="tetx-md text-gray-500 py-2">
+            🤙 Live Weekly <span className="text-orange-500">Coaching</span>{" "}
+            calls <span className="text-orange-500 font-bold">{timing}+</span>{" "}
+            hours
           </p>
-          <br />
-          {text2}
-        </div>
-        <div className="p-5 flex justify-center items-center">
-          <a
-            href="#"
-            className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-500 dark:hover:bg-orange-400 dark:focus:ring-orange-200"
-          >
-            {button}
-            <svg
-              className="ml-2 -mr-1 w-4 h-4"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </a>
+          <p className="tetx-md text-gray-500 ">
+            ✅ 1 to 1 <span className="text-orange-500">Doubt Clearing</span>
+          </p>
+          <div className="flex items-center mt-4 text-left text-base lg:text-xl text-gray-600 font-semibold">
+            🤑 Starting up at{" "}
+            <span className="flex items-center text-orange-500">
+              <BiRupee /> {pricing}/-
+            </span>
+            <span className="text-xs line-through flex items-center ml-5">
+              <BiRupee /> 9999/-
+            </span>
+          </div>
         </div>
       </div>
     </div>

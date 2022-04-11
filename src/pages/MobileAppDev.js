@@ -1,20 +1,21 @@
 import React from "react";
 import Base from "../components/Base";
 import Footer from "../components/Footer";
-import FrontEndTimeShedule from "../components/FrontEnd/FrontEndTimeShedule";
-import FrountEndPriceCard from "../components/FrontEnd/FrountEndPriceCard";
-import FrontendAraayProps from "../schemas/FrontendAraayProps";
+import Nativelogo from "../assets/nativelogo.png";
+import MobileApp from "../components/MobileApp/MobileApp";
+import MobileAppPricing from "../components/MobileApp/MobileAppPricing";
+import MobileAppTimeShedule from "../components/MobileApp/MobileAppTimeShedule";
 
-function Frontend() {
+function MobileAppDev() {
   return (
     <div className="w-full h-[110vh]  relative">
       <div className="absolute top-0 bg-black bg-opacity-70  left-0 w-full h-full">
         {" "}
       </div>
-      <div className=' w-full h-full bg-[url("https://blog.logrocket.com/wp-content/uploads/2020/05/NGX_admin.png")]'>
+      <div className=' w-full h-full bg-[url("https://omninos.com/wp-content/uploads/2021/01/mobile-app-development-for-startup-owners.jpeg")]'>
         <div className="px-16 lg:top-1/2 top-20 lg:-translate-y-1/2 relative z-40">
           <h1 className="lg:text-6xl text-center lg:text-left text-4xl font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize">
-            FrontEnd Devlopment <br />
+            Mobile App Develpoer <br />
             from <span className="text-orange-500">Zero to Hero! 🔥 </span>
           </h1>
           <div className="lg:space-y-3 lg:text-left text-center mt-8 lg:max-w-2xl">
@@ -62,34 +63,26 @@ function Frontend() {
             className="w-auto h-24"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
           />
-          <img
-            className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
-          />
-          <img
-            className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
-          />
-          <img
-            className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
-          />
+          <img className="w-auto h-24" src={Nativelogo} />
           <img
             className="w-auto h-24"
             src="https://miro.medium.com/max/1400/1*RdowFHAWDgkkwjXkQW0yNQ.png"
           />
-          <img className="w-auto h-24" src="https://mui.com/static/logo.png" />
+          <img
+            className="w-auto h-24"
+            src="https://reactnavigation.org/img/spiro.svg"
+          />
+          <img
+            className="w-auto h-24"
+            src="https://reactnativeelements.com/img/website/logo.png"
+          />
         </div>
       </div>
       <div className="h-[20vh] w-full bg-gray-200 p-10">
         <div className="flex items-center justify-evenly">
           <img
             className="w-auto h-24"
-            src="https://miro.medium.com/max/712/0*QXkyD4rFK7ivYf9-.png"
-          />
-          <img
-            className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+            src="https://cdn-images-1.medium.com/fit/t/1600/480/1*7ucm2eGmeDRIRDY4cez-4w.jpeg"
           />
           <img
             className="w-auto h-24"
@@ -118,48 +111,49 @@ function Frontend() {
           <p>Learn the Tech behind top companies like...</p>
           <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly p-20">
             <img
-              className="w-auto lg:h-16 h-auto"
+              className="w-auto lg:h-20 h-auto"
               src="https://icon-library.com/images/facebook-svg-icon/facebook-svg-icon-29.jpg"
             />
             <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__480.png"
-            />
-            <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202204080353"
-            />
-            <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/931/524/TESLA-LOGO.jpg?ve=1&tl=1"
-            />
-            <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://play-lh.googleusercontent.com/8Vw-7MAm558750a4M55fiOlUf7lP2cYnFuqSWynrygIiyEEiQQDa_xxHKYOX83L0UD2T"
+              className="w-auto lg:h-20 h-auto"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/58/Uber_logo_2018.svg"
             />
             <img
               className="w-auto lg:h-20 h-auto"
-              src="https://cdn.arstechnica.net/wp-content/uploads/2018/08/Netflix_Logo_Digital_Video-800x450.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/640px-Instagram-Icon.png"
             />
             <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg"
+              className="w-auto lg:h-20 h-auto"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Skype_logo_%282019%E2%80%93present%29.svg/640px-Skype_logo_%282019%E2%80%93present%29.svg.png"
             />
             <img
-              className="w-auto lg:h-16 h-auto"
-              src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png"
+              className="w-auto lg:h-20 h-auto"
+              src="https://ebenezersuites.com/wp-content/uploads/2016/06/airbnb-logo-266x300@2x.png"
+            />
+            <img
+              className="w-auto lg:h-20 h-auto"
+              src="https://appedus.com/wp-content/uploads/2021/01/Discord-App-Review-Appedus.png"
+            />
+            <img
+              className="w-auto lg:h-20 h-auto"
+              src="https://i.pinimg.com/280x280_RS/f6/e9/3a/f6e93a06b500b2d87ffd32e1f56f7c6f.jpg"
+            />
+            <img
+              className="w-auto h-14"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Myntra_logo.png"
+            />
+            <img
+              className="w-auto h-14"
+              src="https://play-lh.googleusercontent.com/EuiZnkT8aEKjXDLX74DTp1VRIwWaeRa8Dvo-LOGAxy1FPQ8GzABTIRenksiM-A7Oz48g"
             />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
-          <img
-            className="h-24 m-auto"
-            src="https://cdn.coderons.com/general/tags/javascript.png"
-          />
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+          <img className="h-24 m-auto" src={Nativelogo} />
           <h1 className="text-center font-bold text-gray-700 text-3xl p-10">
-            FrontEnd Training
+            Mobile App Training
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
             This course is designed to cover ALL elements of Web development,
@@ -201,7 +195,7 @@ function Frontend() {
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
           <img
             className="h-24 m-auto"
             src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/0oBZSc5RLCZvSL6re7ww_emoji-icon-glossy-06-01-activities-award-medal-military-medal-72dpi-forPersonalUseOnly.png"
@@ -257,19 +251,24 @@ function Frontend() {
           you are going to get before purchasing!
         </p>
       </div>
-      <FrontendAraayProps />
-      <FrontEndTimeShedule
+      <MobileApp />
+      <MobileAppTimeShedule
         week="1"
         timing="4 Hours 48 Minutes"
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
       />
-      <FrontEndTimeShedule
+      <MobileAppTimeShedule
         week="2"
         timing="3 Hours 48 Minutes"
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
       />
-      <FrontEndTimeShedule
+      <MobileAppTimeShedule
         week="3"
+        timing="5 Hours 48 Minutes"
+        text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
+      />
+      <MobileAppTimeShedule
+        week="4"
         timing="5 Hours 48 Minutes"
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
       />
@@ -278,7 +277,7 @@ function Frontend() {
           + 42 Weeks More! With total of 60 hour of video study!
         </h1>
       </div>
-      <div className="max-w-[85%] m-auto shadow-2xl my-20 p-5">
+      <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
         <h1 className="text-4xl text-center font-bold p-2">
           <span className=" text-orange-400 p-2 "> But wait...</span> There's
           MORE!?
@@ -304,7 +303,7 @@ function Frontend() {
           💠 🔐 PAPA Mentorship Coaching Calls [Diamond Members Only]
         </h1>
       </div>
-      <div className="max-w-[85%] m-auto shadow-[0px_25px_20px_20px_rgba(0,0,0,0.1)] my-20 p-5">
+      <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
         <h1 className="text-4xl text-center font-bold p-2">
           <span className=" text-orange-400 p-2 ">
             And we still aren't done yet....
@@ -318,11 +317,11 @@ function Frontend() {
           need to know to become a programming god...No exaggerations!
         </p>
       </div>
-      <FrountEndPriceCard />
+      <MobileAppPricing />
       <Footer />
       <Base />
     </div>
   );
 }
 
-export default Frontend;
+export default MobileAppDev;

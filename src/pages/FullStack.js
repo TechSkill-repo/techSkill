@@ -2,20 +2,19 @@ import React from "react";
 import Base from "../components/Base";
 import Footer from "../components/Footer";
 import FrontEndTimeShedule from "../components/FrontEnd/FrontEndTimeShedule";
-import FrountEndPriceCard from "../components/FrontEnd/FrountEndPriceCard";
-import FrontendAraayProps from "../schemas/FrontendAraayProps";
+import FullStackInfo from "../components/FullStack/FullStackInfo";
+import FullStackPriceCard from "../components/FullStack/FullStackPriceCard";
+import FullStackTimeShedule from "../components/FullStack/FullStackTimeShedule";
 
-function Frontend() {
+function FullStack() {
   return (
     <div className="w-full h-[110vh]  relative">
-      <div className="absolute top-0 bg-black bg-opacity-70  left-0 w-full h-full">
-        {" "}
-      </div>
-      <div className=' w-full h-full bg-[url("https://blog.logrocket.com/wp-content/uploads/2020/05/NGX_admin.png")]'>
-        <div className="px-16 lg:top-1/2 top-20 lg:-translate-y-1/2 relative z-40">
+      <div className="absolute top-0 bg-black bg-opacity-60  left-0 w-full h-full"></div>
+      <div className=' w-full h-full bg-[url("https://harbingermarketing.com/wp-content/uploads/2020/09/1947484.jpg")]'>
+        <div className="px-16 top-1/2 -translate-y-1/2 relative z-40">
           <h1 className="lg:text-6xl text-center lg:text-left text-4xl font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize">
-            FrontEnd Devlopment <br />
-            from <span className="text-orange-500">Zero to Hero! 🔥 </span>
+            FullStack Devlopment <br />
+            With <span className="text-orange-500 ">MERN Stack 🔥 </span>
           </h1>
           <div className="lg:space-y-3 lg:text-left text-center mt-8 lg:max-w-2xl">
             <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
@@ -68,7 +67,7 @@ function Frontend() {
           />
           <img
             className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+            src="https://everyday.codes/wp-content/uploads/2020/01/0-U2DmhXYumRyXH6X1.png"
           />
           <img
             className="w-auto h-24"
@@ -78,6 +77,10 @@ function Frontend() {
             className="w-auto h-24"
             src="https://miro.medium.com/max/1400/1*RdowFHAWDgkkwjXkQW0yNQ.png"
           />
+          <img
+            className="w-auto h-24"
+            src="https://nx.dev/documentation/shared/jest-logo.png"
+          />
           <img className="w-auto h-24" src="https://mui.com/static/logo.png" />
         </div>
       </div>
@@ -85,15 +88,15 @@ function Frontend() {
         <div className="flex items-center justify-evenly">
           <img
             className="w-auto h-24"
-            src="https://miro.medium.com/max/712/0*QXkyD4rFK7ivYf9-.png"
+            src="https://www.the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
           />
           <img
             className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
           />
           <img
-            className="w-auto h-24"
-            src="https://everyday.codes/wp-content/uploads/2020/01/0-U2DmhXYumRyXH6X1.png"
+            className="w-auto h-32"
+            src="https://www.svgrepo.com/show/303232/mongodb-logo.svg"
           />
           <img
             className="w-auto h-24"
@@ -118,7 +121,8 @@ function Frontend() {
           <p>Learn the Tech behind top companies like...</p>
           <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly p-20">
             <img
-              className="w-auto lg:h-16 h-auto"
+              className="w-auto lg:h-14
+               h-auto"
               src="https://icon-library.com/images/facebook-svg-icon/facebook-svg-icon-29.jpg"
             />
             <img
@@ -138,7 +142,7 @@ function Frontend() {
               src="https://play-lh.googleusercontent.com/8Vw-7MAm558750a4M55fiOlUf7lP2cYnFuqSWynrygIiyEEiQQDa_xxHKYOX83L0UD2T"
             />
             <img
-              className="w-auto lg:h-20 h-auto"
+              className="w-auto lg:h-14 h-auto"
               src="https://cdn.arstechnica.net/wp-content/uploads/2018/08/Netflix_Logo_Digital_Video-800x450.jpg"
             />
             <img
@@ -146,20 +150,24 @@ function Frontend() {
               src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg"
             />
             <img
-              className="w-auto lg:h-16 h-auto"
+              className="w-auto lg:h-14 h-auto"
+              src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png"
+            />
+            <img
+              className="w-auto lg:h-14 h-auto"
               src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png"
             />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
           <img
             className="h-24 m-auto"
-            src="https://cdn.coderons.com/general/tags/javascript.png"
+            src="https://www.askgalore.com/wp-content/uploads/2021/11/mern_hero.png"
           />
           <h1 className="text-center font-bold text-gray-700 text-3xl p-10">
-            FrontEnd Training
+            MERN STACK 101
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
             This course is designed to cover ALL elements of Web development,
@@ -201,7 +209,7 @@ function Frontend() {
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
           <img
             className="h-24 m-auto"
             src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/0oBZSc5RLCZvSL6re7ww_emoji-icon-glossy-06-01-activities-award-medal-military-medal-72dpi-forPersonalUseOnly.png"
@@ -257,18 +265,18 @@ function Frontend() {
           you are going to get before purchasing!
         </p>
       </div>
-      <FrontendAraayProps />
-      <FrontEndTimeShedule
+      <FullStackInfo />
+      <FullStackTimeShedule
         week="1"
         timing="4 Hours 48 Minutes"
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
       />
-      <FrontEndTimeShedule
+      <FullStackTimeShedule
         week="2"
         timing="3 Hours 48 Minutes"
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
       />
-      <FrontEndTimeShedule
+      <FullStackTimeShedule
         week="3"
         timing="5 Hours 48 Minutes"
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
@@ -278,7 +286,7 @@ function Frontend() {
           + 42 Weeks More! With total of 60 hour of video study!
         </h1>
       </div>
-      <div className="max-w-[85%] m-auto shadow-2xl my-20 p-5">
+      <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
         <h1 className="text-4xl text-center font-bold p-2">
           <span className=" text-orange-400 p-2 "> But wait...</span> There's
           MORE!?
@@ -304,7 +312,7 @@ function Frontend() {
           💠 🔐 PAPA Mentorship Coaching Calls [Diamond Members Only]
         </h1>
       </div>
-      <div className="max-w-[85%] m-auto shadow-[0px_25px_20px_20px_rgba(0,0,0,0.1)] my-20 p-5">
+      <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
         <h1 className="text-4xl text-center font-bold p-2">
           <span className=" text-orange-400 p-2 ">
             And we still aren't done yet....
@@ -318,11 +326,11 @@ function Frontend() {
           need to know to become a programming god...No exaggerations!
         </p>
       </div>
-      <FrountEndPriceCard />
+      <FullStackPriceCard />
       <Footer />
       <Base />
     </div>
   );
 }
 
-export default Frontend;
+export default FullStack;
