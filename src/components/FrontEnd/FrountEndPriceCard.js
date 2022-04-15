@@ -4,7 +4,7 @@ import { BiRupee } from "react-icons/bi";
 function FrountEndPriceCard() {
   return (
     <div className="">
-      <h1 className="text-center text-5xl my-10 font-bold  ">
+      <h1 className="text-center lg:text-5xl text-3xl my-10 font-bold  ">
         Pay a little, <span className="text-orange-500">Earn a lot! 💸</span>
       </h1>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-2 gap-6 lg:gap-12 w-full p-10 ">
@@ -73,7 +73,7 @@ function FrountEndPriceCard() {
             Upgrade to our Exclusive <br /> Mentorship Experience <br /> 👉
           </h1>
         </div>
-        <div className="h-fit shadow-xl lg:w-[80%] max-w-full scale-[1.02] hover:shadow-2xl  hover:cursor-pointer">
+        <div className="h-fit shadow-xl lg:w-[80%] max-w-full scale-[1.02] hover:shadow-2xl mt-10  hover:cursor-pointer">
           <div className="bg-purple-500  w-full text-center">
             <h1 className="text-4xl font-bold text-gray-50 py-6">
               🔥 Tech Platinum 🔥

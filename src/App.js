@@ -6,6 +6,8 @@ import MobileAppDev from "./pages/MobileAppDev";
 import Contact from "./pages/Contact";
 import FullStack from "./pages/FullStack";
 import Python from "./pages/Python";
+import UiUx from "./pages/UiUx";
+import GraphicDesigning from "./pages/GraphicDesigning";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/mobileapp-dev" element={<MobileAppDev />} />
           <Route path="/fullstack" element={<FullStack />} />
           <Route path="/python" element={<Python />} />
+          <Route path="/uiuxDesigning" element={<UiUx />} />
+          <Route path="/graphicDesigning" element={<GraphicDesigning />} />
         </Routes>
       </main>
     </div>

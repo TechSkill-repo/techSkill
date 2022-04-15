@@ -10,7 +10,7 @@ function FrontEndTimeShedule({ week, timing, text }) {
           </h1>
           <h1 className="text-2xl font-semibold py-2">🕜 {timing}</h1>
           <hr />
-          <p className="py-2 text-gray-700 text-lg">❗ {text}</p>
+          <p className="py-2 text-gray-700 text-sm lg:text-lg">❗ {text}</p>
         </div>
       </div>
     </>

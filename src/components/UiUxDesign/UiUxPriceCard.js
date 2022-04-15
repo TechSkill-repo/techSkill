@@ -1,7 +1,7 @@
 import React from "react";
 import { BiRupee } from "react-icons/bi";
 
-function PythonPriceCard() {
+function UiUxPriceCard() {
   return (
     <div className="">
       <h1 className="text-center lg:text-5xl text-3xl my-10 font-bold  ">
@@ -57,7 +57,7 @@ function PythonPriceCard() {
               <b className="text-gray-700"> (iOS & Android) </b>
             </p>
           </div>
-          <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
+          <div className="border-solid border-b-2 w-[80%]  m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
             Split into 3 Monthly Payments of £150
           </p>
@@ -137,4 +137,4 @@ function PythonPriceCard() {
   );
 }
 
-export default PythonPriceCard;
+export default UiUxPriceCard;

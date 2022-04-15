@@ -8,6 +8,7 @@ function Contact() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
+  const [scope, setscope] = useState("");
   const [courcePlan, setCourcePlan] = useState("");
   const [phoneNo, setPhoneNo] = useState("");
   const [state, setState] = useState("");
@@ -18,6 +19,7 @@ function Contact() {
       firstName: firstName,
       lastName: lastName,
       email: email,
+      scope: scope,
       courcePlan: courcePlan,
       phoneNo: phoneNo,
       state: state,
@@ -25,6 +27,7 @@ function Contact() {
     setFirstName("");
     setLastName("");
     setEmail("");
+    setscope("");
     setCourcePlan("");
     setPhoneNo("");
     setState("");
@@ -117,6 +120,27 @@ function Contact() {
             <div class="w-full px-3">
               <label
                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="grid-password"
+              >
+                School / Collage Name
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-password"
+                type="text"
+                placeholder="KENDRA"
+                name="scope"
+                value={scope}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 for="grid-state"
               >
                 Cource Plan
@@ -137,6 +161,9 @@ function Contact() {
                   <option>Python Development</option>
                   <option>Ui/Ux Designing</option>
                   <option>Graphic Designing</option>
+                  <option>Eathical Hacking</option>
+                  <option>Digital Marketting</option>
+                  <option>Microsoft Office</option>
                 </select>
                 <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                   <svg
@@ -181,7 +208,7 @@ function Contact() {
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-zip"
                 type="text"
-                placeholder="90210"
+                placeholder="Kolkata"
                 value={state}
                 onChange={(e) => {
                   setState(e.target.value);

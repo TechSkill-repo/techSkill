@@ -1,6 +1,6 @@
 import React from "react";
 
-function PythonTimeShedule({ week, timing, text }) {
+function UiUxTimeShedule({ week, timing, text }) {
   return (
     <div className="my-10">
       <div className="max-w-[70%] m-auto">
@@ -15,4 +15,4 @@ function PythonTimeShedule({ week, timing, text }) {
   );
 }
 
-export default PythonTimeShedule;
+export default UiUxTimeShedule;

@@ -1,7 +1,7 @@
 import React from "react";
 import { BiRupee } from "react-icons/bi";
 
-function Cards({ title, img, timing, pricing }) {
+function Cards({ title, img, timing, pricing, footerText }) {
   return (
     <div className="h-auto w-full cursor-pointer">
       <div className=" w-full flex flex-col rounded h-full overflow-hidden shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] hover:shadow-2xl hover:scale-[1.03] transition-all ease-in-out duration-150 ">
@@ -37,6 +37,9 @@ function Cards({ title, img, timing, pricing }) {
               <BiRupee /> 9999/-
             </span>
           </div>
+        </div>
+        <div className="bg-orange-300 text-center  text-gray-500 font-bold rounded-b-sm">
+          <p> {footerText}</p>
         </div>
       </div>
     </div>

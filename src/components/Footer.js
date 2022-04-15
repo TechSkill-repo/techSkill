@@ -15,16 +15,16 @@ function Footer() {
   };
 
   return (
-    <div className="w-full h-[80vh] mt-10 relative">
+    <div className="w-full lg:h-[80vh] h-full mt-10 relative">
       <div className="absolute top-0 bg-black bg-opacity-70  left-0 w-full h-full">
         {" "}
       </div>
       <div className=' w-full h-full bg-[url("https://images.everydayhealth.com/images/cs-prevent-as-back-pain-working-from-home-1440x810.jpg")] bg-cover bg-center  '>
         <div className=" text-center pt-20 lg:pt-40 pb-7 relative z-40">
-          <h1 className=" text-[40px] font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize ">
+          <h1 className=" lg:text-[40px] text-[25px]  font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize ">
             Proven Courses & Real Results 😍
           </h1>
-          <p className=" text-center px-10 lg:px-40 py-6 lg:text-[24px] text-xl font-semiboldbold text-gray-50 leading-relaxed tracking-wider">
+          <p className=" text-center px-10 lg:px-40 py-6 lg:text-[24px] text-lg font-semiboldbold text-gray-50 leading-relaxed tracking-wider">
             No certifications or awards here. We focus on giving you real
             <br />
             developer skills that bring you real results: Clients, jobs, self-
@@ -49,7 +49,7 @@ function Footer() {
                     setEmail(e.target.value);
                   }}
                 />{" "}
-                <button className="h-10 rounded bg-orange-500 absolute top-2 text-sm font-semiboldbold right-2 px-3 text-white hover:bg-gray-800 ">
+                <button className="h-10 rounded bg-orange-500 absolute top-2 text-sm  font-semiboldbold right-2 px-3 text-white hover:bg-gray-800 ">
                   Subscribe Now
                 </button>{" "}
               </form>

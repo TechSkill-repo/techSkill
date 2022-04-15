@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Base from "../components/Base";
 import Footer from "../components/Footer";
 import FrontEndTimeShedule from "../components/FrontEnd/FrontEndTimeShedule";
@@ -8,90 +9,102 @@ import FullStackTimeShedule from "../components/FullStack/FullStackTimeShedule";
 
 function FullStack() {
   return (
-    <div className="w-full h-[110vh]  relative">
-      <div className="absolute top-0 bg-black bg-opacity-60  left-0 w-full h-full"></div>
-      <div className=' w-full h-full bg-[url("https://harbingermarketing.com/wp-content/uploads/2020/09/1947484.jpg")]'>
-        <div className="px-16 top-1/2 -translate-y-1/2 relative z-40">
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize">
-            FullStack Devlopment <br />
-            With <span className="text-orange-500 ">MERN Stack 🔥 </span>
-          </h1>
-          <div className="lg:space-y-3 lg:text-left text-center mt-8 lg:max-w-2xl">
-            <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
-              ✅ &nbsp; NO CODING experience required
-            </p>
-            <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
-              {" "}
-              ✅ &nbsp; From learning the Basics of Web Development to Mastering
-              React!
-            </p>
-            <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
-              {" "}
-              ✅ &nbsp; We teach exciting technologies such as Redux, Firebase,
-              Typescript, Next.js, mongoDB + MORE
-            </p>
-            <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
-              {" "}
-              ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
+    <div className="w-full h-full  relative">
+      <div className="w-full lg:h-screen h-full relative">
+        <div className="absolute top-0 bg-black bg-opacity-70  left-0 w-full h-full">
+          {" "}
+        </div>
+        <div className='w-full  h-full bg-[url("https://www.lighthouselabs.ca/uploads/post/open_graph_image/459/Coding-vs-programming.jpg")] bg-cover bg-center  '>
+          <div className="px-16   relative z-40">
+            <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
+              Stop studying all day <br /> Now time to{" "}
+              <span className="text-orange-400">Learn and earn 💸</span>
+            </h1>
+            <div className="text-center lg:text-left space-y-3 mt-10">
+              <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
+                ✅ &nbsp; NO CODING experience required
+              </p>
+              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+                {" "}
+                ✅ &nbsp; From learning the Basics of Web Development to
+                Mastering React!
+              </p>
+              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+                {" "}
+                ✅ &nbsp; We teach exciting technologies such as Redux,
+                Firebase, Typescript, Next.js, mongoDB + MORE
+              </p>
+              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+                {" "}
+                ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
+                dynamic content unlike any Udemy course!
+              </p>
+              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+                {" "}
+                ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
+              </p>
               dynamic content unlike any Udemy course!
-            </p>
-            <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
-              {" "}
-              ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
-              dynamic content unlike any Udemy course!
-            </p>
-            <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
-              {" "}
-              ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
-              dynamic content unlike any Udemy course!
-            </p>
+            </div>
+            <Link
+              to="/contact"
+              className="flex justify-center lg:justify-start"
+            >
+              <button className="bg-orange-500 lg:text-[18px] text-[12px] lg:mt-16 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-200 hover:text-black duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide mb-10 lg:mb-0">
+                CLICK HERE TO BOOK YOUR FIRST{" "}
+                <span className="text-black">FREE</span> CLASS!{" "}
+              </button>
+            </Link>
           </div>
-          <button className="bg-orange-500 text-[18px] mt-20 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-200 hover:text-black duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide">
-            CLICK HERE TO JOIN THE TECHPEDIA !{" "}
-          </button>
         </div>
       </div>
-      <div className="h-[20vh] w-full bg-gray-200 p-10">
-        <div className="flex items-center justify-evenly">
+      <div className="h-fit w-full bg-gray-200 p-10">
+        <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly">
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://everyday.codes/wp-content/uploads/2020/01/0-U2DmhXYumRyXH6X1.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://miro.medium.com/max/1400/1*RdowFHAWDgkkwjXkQW0yNQ.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://nx.dev/documentation/shared/jest-logo.png"
           />
-          <img className="w-auto h-24" src="https://mui.com/static/logo.png" />
+          <img
+            className="w-auto h-24 object-contain"
+            src="https://mui.com/static/logo.png"
+          />
+          <img
+            className="w-auto h-24 object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png"
+          />
         </div>
       </div>
-      <div className="h-[20vh] w-full bg-gray-200 p-10">
-        <div className="flex items-center justify-evenly">
+      <div className="h-full w-full bg-gray-200 p-10">
+        <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly">
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain "
             src="https://www.the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
           />
           <img
@@ -99,20 +112,16 @@ function FullStack() {
             src="https://www.svgrepo.com/show/303232/mongodb-logo.svg"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
           />
           <img
-            className="w-auto h-24"
+            className="w-auto h-24 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
-          />
-          <img
-            className="w-auto h-24"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
           />
         </div>
       </div>
@@ -147,7 +156,7 @@ function FullStack() {
             />
             <img
               className="w-auto lg:h-14 h-auto"
-              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"
             />
             <img
               className="w-auto lg:h-14 h-auto"
@@ -282,44 +291,44 @@ function FullStack() {
         text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
       />
       <div className="max-w-[70%] m-auto shadow-lg rounded-lg p-5">
-        <h1 className="text-xl font-bold p-2">
+        <h1 className="lg:text-xl font-bold p-2">
           + 42 Weeks More! With total of 60 hour of video study!
         </h1>
       </div>
       <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
-        <h1 className="text-4xl text-center font-bold p-2">
+        <h1 className="lg:text-4xl text-2xl text-center font-bold p-2">
           <span className=" text-orange-400 p-2 "> But wait...</span> There's
           MORE!?
         </h1>
-        <p className="text-gray-500 p-5 text-xl max-w-[70%] leading-tight tracking-wide m-auto text-center">
+        <p className="text-gray-500 p-5 lg:text-xl max-w-[70%] leading-tight tracking-wide m-auto text-center">
           YES, We're always pushing the boundaries of the community and we don't
           plan on slowing down any time soon.. Check this out!
         </p>
       </div>
 
       <div className="max-w-[60%] m-auto shadow-md mb-10 p-5">
-        <h1 className="text-xl font-bold px-3 py-4">
+        <h1 className="lg:text-xl font-bold px-3 py-4">
           🔴🏅 Success Coach Coaching Calls [Every Friday]
         </h1>
       </div>
       <div className="max-w-[60%] m-auto mb-10 shadow-md p-5">
-        <h1 className="text-xl font-bold px-3 py-4">
+        <h1 className="lg:text-xl font-bold px-3 py-4">
           👩‍🎓👨‍🎓 The Student Area [Lessons & Resources + More]
         </h1>
       </div>
       <div className="max-w-[60%] m-auto shadow-md p-5">
-        <h1 className="text-xl font-bold px-3 py-4">
+        <h1 className="lg:text-xl font-bold px-3 py-4">
           💠 🔐 PAPA Mentorship Coaching Calls [Diamond Members Only]
         </h1>
       </div>
       <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
-        <h1 className="text-4xl text-center font-bold p-2">
+        <h1 className="lg:text-4xl text-2xl text-center font-bold p-2">
           <span className=" text-orange-400 p-2 ">
             And we still aren't done yet....
           </span>{" "}
           There's MORE!?
         </h1>
-        <p className="text-gray-500 p-5 text-xl max-w-[80%] leading-tight rounded-lg tracking-wide m-auto text-center">
+        <p className="text-gray-500 p-5 lg:text-xl max-w-[80%] leading-tight rounded-lg tracking-wide m-auto text-center">
           We did it, we have made the perfect JavaScript and Next.js eBooks
           which will be your Ultimate Cheatsheet that will guide you through
           JavaScript and Next.js with ease. These eBooks contain everything you
