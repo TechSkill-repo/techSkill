@@ -17,8 +17,9 @@ function FullStack() {
         <div className='w-full  h-full bg-[url("https://www.lighthouselabs.ca/uploads/post/open_graph_image/459/Coding-vs-programming.jpg")] bg-cover bg-center  '>
           <div className="px-16   relative z-40">
             <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
-              Stop studying all day <br /> Now time to{" "}
-              <span className="text-orange-400">Learn and earn 💸</span>
+              Zero to Full Stack Hero
+              <br />
+              <span className="text-orange-400"> With MERN STACK🔥</span>
             </h1>
             <div className="text-center lg:text-left space-y-3 mt-10">
               <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
@@ -41,23 +42,22 @@ function FullStack() {
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
+                ✅ &nbsp; Access to exclusive Slack & Discord communities
               </p>
-              dynamic content unlike any Udemy course!
             </div>
             <Link
               to="/contact"
               className="flex justify-center lg:justify-start"
             >
-              <button className="bg-orange-500 lg:text-[18px] text-[12px] lg:mt-16 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-200 hover:text-black duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide mb-10 lg:mb-0">
-                CLICK HERE TO BOOK YOUR FIRST{" "}
+              <button className="bg-orange-500 lg:text-[18px] text-[12px] lg:mt-16 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-500 hover:scale-105 hover:text-black duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide mb-10 lg:mb-0">
+                CLICK TO BOOK YOUR FIRST{" "}
                 <span className="text-black">FREE</span> CLASS!{" "}
               </button>
             </Link>
           </div>
         </div>
       </div>
-      <div className="h-fit w-full bg-gray-200 p-10">
+      <div className="h-full w-full bg-gray-200 p-10">
         <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly">
           <img
             className="w-auto h-24 object-contain"
@@ -127,7 +127,7 @@ function FullStack() {
       </div>
       <div className="mt-28">
         <div className="text-center text-gray-700 font-extrabold text-3xl">
-          <p>Learn the Tech behind top companies like...</p>
+          <p>Learn to build clones of top companies like...</p>
           <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly p-20">
             <img
               className="w-auto lg:h-14
@@ -164,13 +164,13 @@ function FullStack() {
             />
             <img
               className="w-auto lg:h-14 h-auto"
-              src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png"
+              src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"
             />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://www.askgalore.com/wp-content/uploads/2021/11/mern_hero.png"
@@ -179,14 +179,12 @@ function FullStack() {
             MERN STACK 101
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            This course is designed to cover ALL elements of Web development,
-            <br />
-            <br />
-            including Frontend technologies, Backend technologies & Everything
-            in between!
+            MERN stands for MongoDB, Express, React, Node, after the four key
+            technologies that make up the stack. ... Express and Node make up
+            the middle (application) tier.
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/WquJvpFSGWxoQTfjf7uQ_tezjWY97Qe6ILAidkyjJ_icons8-leadership.png"
@@ -195,13 +193,13 @@ function FullStack() {
             Weekly Coaching Calls
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, Sonny will deliver a Full Stack Mastermind coaching
+            Every week, techpedia will deliver a Full Stack Mastermind coaching
             <br />
             call which many describe as 'Worth more than a University Degree
             itself!', so buckle up!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://yt3.ggpht.com/ytc/AKedOLS2OOXtmIHu0Tf1TmWITVrHNktn-MVXK3XRjwf4YA=s900-c-k-c0x00ffffff-no-rj"
@@ -211,14 +209,14 @@ function FullStack() {
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
             Ever heard the saying "your network is your net worth", well... with
-            the PAPA fam, we take this to a WHOLE new level! - Dedicated support
-            24/7, accountability, motivation, its all here inside the PAPA fam
-            community.
+            the techPedia fam, we take this to a WHOLE new level! - Dedicated
+            support 24/7, accountability, motivation, its all here inside the
+            techPedia fam community.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/0oBZSc5RLCZvSL6re7ww_emoji-icon-glossy-06-01-activities-award-medal-military-medal-72dpi-forPersonalUseOnly.png"
@@ -233,7 +231,7 @@ function FullStack() {
             in between!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://cdn.technobezz.com/files/uploads/2020/06/discord_main-1-1280x720-1.jpg"
@@ -242,25 +240,23 @@ function FullStack() {
             Discort community
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, Sonny will deliver a Full Stack Mastermind coaching
-            <br />
-            call which many describe as 'Worth more than a University Degree
-            itself!', so buckle up!
+            This is more than just a community, its the world's largest coding
+            FAMILY. We WORK HARD together, we PLAY HARD together!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
-            src="https://www.seekpng.com/png/detail/7-79869_dollar-png-free-download-dollar-logo.png"
+            src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/jgr7hIsOTqmftTmuj39S_41uNySGSRSmmduJHzCGX_icons8-get_cash.png"
           />
           <h1 className="text-center text-gray-700 font-bold text-3xl p-10">
             Earn after learn
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Ever heard the saying "your network is your net worth", well... with
-            the PAPA fam, we take this to a WHOLE new level! - Dedicated support
-            24/7, accountability, motivation, its all here inside the PAPA fam
-            community.
+            Everything you need to go from ZERO to landing your first of many
+            $$$'s We teach you how to take your skill & passion for programming
+            and transform that into a sustainable income which will change your
+            life.
           </p>
         </div>
       </div>
@@ -282,17 +278,17 @@ function FullStack() {
       />
       <FullStackTimeShedule
         week="2"
-        timing="3 Hours 48 Minutes"
-        text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
+        timing="4 Hours 48 Minutes"
+        text="Drag and Drop it like it's HOT! (dnd) - Typescript introduction - Potfolio 101"
       />
       <FullStackTimeShedule
         week="3"
-        timing="5 Hours 48 Minutes"
-        text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
+        timing="4 Hours 48 Minutes"
+        text=" Introduction to React - Testing Suggestions - React Lifecycle Focus & Blur - Advice for Interviews - Performance Optimizations"
       />
       <div className="max-w-[70%] m-auto shadow-lg rounded-lg p-5">
         <h1 className="lg:text-xl font-bold p-2">
-          + 42 Weeks More! With total of 60 hour of video study!
+          + 40 Weeks More! With total of 160 hour of video study!
         </h1>
       </div>
       <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
@@ -318,7 +314,7 @@ function FullStack() {
       </div>
       <div className="max-w-[60%] m-auto shadow-md p-5">
         <h1 className="lg:text-xl font-bold px-3 py-4">
-          💠 🔐 PAPA Mentorship Coaching Calls [Diamond Members Only]
+          💠 🔐 techPedia Mentorship Coaching Calls [Diamond Members Only]
         </h1>
       </div>
       <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
@@ -329,10 +325,10 @@ function FullStack() {
           There's MORE!?
         </h1>
         <p className="text-gray-500 p-5 lg:text-xl max-w-[80%] leading-tight rounded-lg tracking-wide m-auto text-center">
-          We did it, we have made the perfect JavaScript and Next.js eBooks
-          which will be your Ultimate Cheatsheet that will guide you through
-          JavaScript and Next.js with ease. These eBooks contain everything you
-          need to know to become a programming god...No exaggerations!
+          We did it, we have made the perfect tech cource eBooks which will be
+          your Ultimate Cheatsheet that will guide you through the technology
+          with ease. These eBooks contain everything you need to know to become
+          a programming god...No exaggerations!
         </p>
       </div>
       <FullStackPriceCard />

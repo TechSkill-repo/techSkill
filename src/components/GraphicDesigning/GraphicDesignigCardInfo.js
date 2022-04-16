@@ -1,10 +1,10 @@
 import React from "react";
 
-function MobileDev({ title, img, text }) {
+function GraphicDesignigCardInfo({ img, text, title }) {
   return (
     <>
-      <div className="shadow-xl rounded p-10 text-center w-full h-full">
-        <img className="h-40 m-auto object-contain" src={img} />
+      <div className="shadow-xl rounded p-10 text-center max-w-full">
+        <img className="h-36 m-auto object-contain" src={img} />
         <h1 className="text-center font-bold text-gray-700 text-3xl p-5">
           {title}
         </h1>
@@ -16,4 +16,4 @@ function MobileDev({ title, img, text }) {
   );
 }
 
-export default MobileDev;
+export default GraphicDesignigCardInfo;

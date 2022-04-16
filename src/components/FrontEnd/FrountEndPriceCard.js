@@ -1,5 +1,6 @@
 import React from "react";
 import { BiRupee } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function FrountEndPriceCard() {
   return (
@@ -20,8 +21,8 @@ function FrountEndPriceCard() {
             </h1>
             <h1 className="flex items-center justify-center lg:text-4xl text-2xl pt-8 font-bold text-gray-800 ">
               <BiRupee />
-              3999 (<BiRupee />
-              1000 Off!)
+              4990 (<BiRupee />
+              1250/ month!)
             </h1>
             <p className="text-lg font-bold text-gray-400 text-center py-4">
               ONE-TIME PAYMENT (SAVE 20%)
@@ -29,42 +30,52 @@ function FrountEndPriceCard() {
             <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           </div>
           <div className="flex-col justify-center items-center pl-10 py-10 w-[93%]">
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ Access to the PAPA{" "}
-              <b className="text-gray-700"> GITHUB REPO (Worth £47)</b>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Duration of techPedia silver pack{" "}
+              <b className="text-gray-700"> 4 monts Access.</b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ Access to Full Stack Mastermind Coaching |
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              👊HTML 👊CSS 👊JavaScript 👊BOOTSTRAP <br />
+              👊npm 👊Git 👊Github
+            </p>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Access to the techPedia{" "}
+              <b className="text-gray-700"> GITHUB REPO (Worth Rs470)</b>
+            </p>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Access to Fruntend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
-                100+ Hours of content (Worth £3000+)
+                40+ Hours of content (Worth Rs3000+)
               </b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ LIFETIME ACCESS to Zero to Full Stack{" "}
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ 4 Full Stack Mastermind Coaching Calls a month
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ 4 Static Minor Projects
               <b className="text-gray-700"> (weekly with Sonny)</b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ Weekly Success Coach Coaching Calls |{" "}
-              <b className="text-gray-700">50+ Hours of content</b>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Weekly 4 hours coaching Zoom calls
+              <b className="text-gray-700"> +2 hours doubt clearing section </b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️Access Anywhere, Anytime on the Web or through the Kajabi App
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️Access Anywhere, Anytime on the Web or through the ZOOM App
               <b className="text-gray-700"> (iOS & Android) </b>
             </p>
           </div>
           <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
-            Split into 3 Monthly Payments of £150
+            Split into 4 Monthly Payments of Rs 1250.00
           </p>
           <div className="flex justify-center p-10">
-            <button className="lg:text-xl text:lg bg-black text-white py-4 w-full text-center rounded-sm">
-              Join Now and Save Up to 20%{" "}
-            </button>
+            <Link to="/contact" className=" bg-black   w-full text-center ">
+              <button className="lg:text-xl text-lg bg-black text-white py-4 w-full text-center rounded-lg">
+                Join Now and Save Up to 20%{" "}
+              </button>
+            </Link>
           </div>
         </div>
         <div className="hidden flex-col justify-center items-center">
@@ -85,8 +96,8 @@ function FrountEndPriceCard() {
             </h1>
             <h1 className="flex items-center justify-center lg:text-4xl text-2xl pt-8 font-bold text-gray-800 ">
               <BiRupee />
-              3999 (<BiRupee />
-              1000 Off!)
+              15990 (<BiRupee />
+              1599/month!)
             </h1>
             <p className="text-lg font-bold text-gray-400 text-center py-4">
               ONE-TIME PAYMENT (SAVE 20%)
@@ -94,31 +105,44 @@ function FrountEndPriceCard() {
             <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           </div>
           <div className="flex-col justify-center items-center pl-10 py-10 w-[93%]">
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ Access to the PAPA{" "}
-              <b className="text-gray-700"> GITHUB REPO (Worth £47)</b>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Duration of techPedia silver pack{" "}
+              <b className="text-gray-700"> 10 monts Access.</b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ Access to Full Stack Mastermind Coaching |
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              👊HTML 👊CSS 👊JavaScript 👊BOOTSTRAP <br />
+              👊npm 👊Git 👊Github <br /> <b className="ml-[50%] text-2xl">+</b>
+              <p className="text-lg font-semibold text-gray-500 py-3">
+                👊React 👊Redux 👊MaterialUi 👊Tailwind 👊npm
+                <br />
+                👊Firebase 👊Git 👊Github
+              </p>
+            </p>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Access to the techPedia{" "}
+              <b className="text-gray-700"> GITHUB REPO (Worth Rs470)</b>
+            </p>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Access to Fruntend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
-                100+ Hours of content (Worth £3000+)
+                160+ Hours of content (Worth Rs 9000)
               </b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ LIFETIME ACCESS to Zero to Full Stack{" "}
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ 4 Full Stack Mastermind Coaching Calls a month
-              <b className="text-gray-700"> (weekly with Sonny)</b>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ 15 Minor and Major Projects
+              <b className="text-gray-700"> in your github potfolio.</b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️ Weekly Success Coach Coaching Calls |{" "}
-              <b className="text-gray-700">50+ Hours of content</b>
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️ Weekly 4 hours coaching Zoom calls
+              <b className="text-gray-700"> +2 hours doubt clearing section </b>
             </p>
-            <p className="text-lg font-semibold text-gray-500 py-5">
-              ⭐️Access Anywhere, Anytime on the Web or through the Kajabi App
+            <p className="text-lg font-semibold text-gray-500 py-3">
+              ⭐️Access Anywhere, Anytime on the Web or through the ZOOM App
               <b className="text-gray-700"> (iOS & Android) </b>
             </p>
           </div>
@@ -127,9 +151,11 @@ function FrountEndPriceCard() {
             Split into 3 Monthly Payments of £150
           </p>
           <div className="flex justify-center p-10">
-            <button className="lg:text-xl text-lg bg-black text-white py-4 w-full text-center rounded-sm">
-              Join Now and Save Up to 20%{" "}
-            </button>
+            <Link to="/contact" className=" bg-black   w-full text-center ">
+              <button className="lg:text-xl text-lg bg-black text-white py-4 w-full text-center rounded-lg">
+                Join Now and Save Up to 20%{" "}
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Cards from "./Cards";
 import webImage from "../assets/webImage.webp";
+import mobileImage from "../assets/mobileImage.jpeg";
+import fullStack from "../assets/fullstack.png";
+import python from "../assets/python.jpeg";
+import uiux from "../assets/uiux.jpeg";
+import gd from "../assets/gd.webp";
 
 function Card() {
   return (
@@ -14,25 +19,28 @@ function Card() {
           <Cards
             title="Website Mastery"
             img={webImage}
-            timing="30"
-            pricing="3999"
+            timing="40+"
+            pricing="4990"
+            cutPrice="12990"
             color="bg-green-300"
           />
         </Link>
         <Link to="/mobileapp-dev" className="w-full">
           <Cards
             title="Mobile App Dev Mastry"
-            img="https://www.futuremind.com/m/cache/c8/15/c8150d863e584ed42ccfbdc3f3f1aa3a.jpg"
-            timing="30"
-            pricing="3999"
+            img={mobileImage}
+            timing="60+"
+            pricing="7590"
+            cutPrice="16990"
           />
         </Link>
         <Link to="/fullstack" className="w-full">
           <Cards
             title="Full Stack Web Mastry"
-            img="https://www.spec-india.com/wp-content/uploads/2020/11/What-is-full-stack-developer.png"
-            timing="30"
-            pricing="3999"
+            img={fullStack}
+            timing="80+"
+            pricing="8990"
+            cutPrice="23000"
           />
         </Link>
       </div>
@@ -40,25 +48,28 @@ function Card() {
         <Link to="python" className="w-full">
           <Cards
             title="Python Mastry"
-            img="https://ciracollege.com/wp-content/uploads/2020/11/How-to-Learn-Python.jpg"
-            timing="30"
-            pricing="3999"
+            img={python}
+            timing="44+"
+            pricing="5999"
+            cutPrice="12300"
           />
         </Link>
         <Link to="/uiuxDesigning" className="w-full">
           <Cards
             title="UI/UX Designing"
-            img="https://www.launchpadapps.com.au/wp-content/uploads/2016/06/Mobile-UX-UI-Design-1030x532.jpg"
-            timing="30"
-            pricing="3999"
+            img={uiux}
+            timing="25+"
+            pricing="3990"
+            cutPrice="7000"
           />
         </Link>
         <Link to="/graphicDesigning" className="w-full">
           <Cards
             title="Graphic Design Mastry"
-            img="https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2019/04/gdi-promising-graphic-designing-courses.jpg?fit=1200%2C800&ssl=1"
-            timing="30"
-            pricing="3999"
+            img={gd}
+            timing="30+"
+            pricing="4999"
+            cutPrice="8000"
           />
         </Link>
       </div>
@@ -68,8 +79,9 @@ function Card() {
             title="Eathical Hacking"
             img="https://tetacourse.com/uploads/mini/full/ef/1622837522_complete-ethical-hacking-course-2021-beginner-to-advanced.webp"
             timing="30"
-            pricing="3999"
-            footerText="Comming Soon..."
+            pricing="8990"
+            cutPrice="9990"
+            footerText="Coming Soon..."
           />
         </Link>
         <Link to="/" className="w-full">
@@ -77,8 +89,8 @@ function Card() {
             title="MicroSoft Office"
             img="https://toivoiban.com/wp-content/uploads/2020/09/Nhung-dieu-can-biet-ve-microsoft-office.png"
             timing="30"
-            pricing="3999"
-            footerText="Comming Soon..."
+            pricing="3990"
+            footerText="Coming Soon..."
           />
         </Link>
         <Link to="" className="w-full">
@@ -86,8 +98,9 @@ function Card() {
             title="Digital Marketting"
             img="https://multichannelmerchant.com/wp-content/uploads/2018/07/digitalmarketing850.jpg"
             timing="30"
-            pricing="3999"
-            footerText="Comming Soon..."
+            pricing="5990"
+            cutPrice="12000"
+            footerText="Coming Soon..."
           />
         </Link>
       </div>

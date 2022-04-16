@@ -20,24 +20,23 @@ function Hero() {
             </p>
             <p className=" text-gray-50 lg:text-xl ">
               {" "}
-              👨‍💻 &nbsp; What it takes to get job offers from big FANG tech
-              companies like Facebbok.
+              👨‍💻 &nbsp; What to get a job in some big tech compnease like make a
+              bundle of money.
             </p>
             <p className=" text-gray-50 lg:text-xl ">
               {" "}
-              🔥 &nbsp; What it takes to get job offers from big FANG tech
-              companies like Facebbok.
+              🔥 &nbsp; Learna the technology and be a self confident devloper.
             </p>
             <p className=" text-gray-50 lg:text-xl ">
               {" "}
-              💯 &nbsp; What it takes to get job offers from big FANG tech
-              companies like Facebbok.
+              💯 &nbsp; We will offer you the best guidence and a first
+              placement as a intern.
             </p>
           </div>
           <Link to="/contact" className="flex justify-center lg:justify-start">
             <button className="bg-orange-500 lg:text-[18px] text-[12px] mt-16 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-500 hover:scale-105 duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide mb-10 lg:mb-0">
-              CLICK HERE TO BOOK YOUR FIRST{" "}
-              <span className="text-black">FREE</span> CLASS!{" "}
+              CLICK TO BOOK YOUR FIRST <span className="text-black">FREE</span>{" "}
+              CLASS!{" "}
             </button>
           </Link>
         </div>

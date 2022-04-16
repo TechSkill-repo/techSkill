@@ -2,7 +2,7 @@ import React from "react";
 import { BiRupee } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
-function FullStackPriceCard() {
+function GraphicDesigningPriceCard() {
   return (
     <div className="">
       <h1 className="text-center lg:text-5xl text-3xl my-10 font-bold  ">
@@ -21,8 +21,8 @@ function FullStackPriceCard() {
             </h1>
             <h1 className="flex items-center justify-center lg:text-4xl text-2xl pt-8 font-bold text-gray-800 ">
               <BiRupee />
-              8990 (<BiRupee />
-              1500/month)
+              4650 (<BiRupee />
+              1550/month)
             </h1>
             <p className="text-lg font-bold text-gray-400 text-center py-4">
               ONE-TIME PAYMENT (SAVE 20%)
@@ -32,29 +32,28 @@ function FullStackPriceCard() {
           <div className="flex-col justify-center items-center pl-10 py-10 w-[93%]">
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Duration of techPedia silver pack{" "}
-              <b className="text-gray-700"> 6 monts Access.</b>
+              <b className="text-gray-700"> 3 monts Access.</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              👊HTML 👊CSS 👊JavaScript 👊React <br />
-              👊Node 👊Express 👊MongoDB
+              👊PhotoShop 👊Abobe Illustrator 👊Canva 👊Potfolio
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Access to the techPedia{" "}
-              <b className="text-gray-700"> GITHUB REPO (Worth Rs990)</b>
+              <b className="text-gray-700"> potfolio (Worth Rs990)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to designing Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
-                96+ Hours of content (Worth Rs5000+)
+                48+ Hours of content (Worth Rs5000+)
               </b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ LIFETIME ACCESS to Zero to FullStack Hero{" "}
+              ⭐️ LIFETIME ACCESS to Zero to designing Hero{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ 6 Static Minor Projects
+              ⭐️ 6 Minor & 2 Major Projects
               <b className="text-gray-700"> (weekly with techPedia)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
@@ -68,7 +67,7 @@ function FullStackPriceCard() {
           </div>
           <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
-            Split into 6 Monthly Payments of Rs 1500
+            Split into 3 Monthly Payments of Rs 1550
           </p>
           <div className="flex justify-center p-10">
             <Link to="/contact" className=" bg-black   w-full text-center ">
@@ -96,8 +95,8 @@ function FullStackPriceCard() {
             </h1>
             <h1 className="flex items-center justify-center lg:text-4xl text-2xl pt-8 font-bold text-gray-800 ">
               <BiRupee />
-              19990 (<BiRupee />
-              1999 /month!)
+              6250 (<BiRupee />
+              1250/month!)
             </h1>
             <p className="text-lg font-bold text-gray-400 text-center py-4">
               ONE-TIME PAYMENT (SAVE 20%)
@@ -107,35 +106,34 @@ function FullStackPriceCard() {
           <div className="flex-col justify-center items-center pl-10 py-10 w-[93%]">
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Duration of techPedia silver pack{" "}
-              <b className="text-gray-700"> 10 monts Access.</b>
+              <b className="text-gray-700"> 5 monts Access.</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              👊HTML 👊CSS 👊JavaScript 👊React 👊Redux <br />
-              👊Node 👊Express 👊MongoDB
+              👊PhotoShop 👊Abobe Illustrator 👊Canva 👊Potfolio
               <br /> <b className="ml-[50%] text-2xl">+</b>
               <p className="text-lg font-semibold text-gray-500 py-3">
-                👊React Advance 👊Node Advance 👊MongoDb Advance
+                👊AdobeEffects 👊Adobe Premiere 👊PhotoShop Advance
                 <br />
               </p>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Access to the techPedia{" "}
-              <b className="text-gray-700"> GITHUB REPO (Worth Rs990)</b>
+              <b className="text-gray-700"> designing REPO (Worth Rs990)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to designing Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
-                160+ Hours of content (Worth Rs 12000)
+                80+ Hours of content (Worth Rs 12000)
               </b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
+              ⭐️ LIFETIME ACCESS to Zero to designing{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ 17 Minor and Major Projects
-              <b className="text-gray-700"> in your github potfolio.</b>
+              ⭐️ 10 Minor and Major Projects
+              <b className="text-gray-700"> in your designing potfolio.</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Weekly 4 hours coaching Zoom calls
@@ -148,7 +146,7 @@ function FullStackPriceCard() {
           </div>
           <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
-            Split into 10 Month Payments of Rs 1999
+            Split into 6 Month Payments of Rs 1265
           </p>
           <div className="flex justify-center p-10">
             <Link to="/contact" className=" bg-black   w-full text-center ">
@@ -163,4 +161,4 @@ function FullStackPriceCard() {
   );
 }
 
-export default FullStackPriceCard;
+export default GraphicDesigningPriceCard;

@@ -27,94 +27,69 @@ function Python() {
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; From learning the Basics of Web Development to
-                Mastering React!
+                ✅ &nbsp; From learning the Basics of Python to Mastering
+                Python!
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; We teach exciting technologies such as Redux,
-                Firebase, Typescript, Next.js, mongoDB + MORE
+                ✅ &nbsp; We teach exciting technologies such as Python Basic,
+                OOPs, Flask, Django + MORE
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
+                ✅ &nbsp; Weekly Python mastermind coaching calls providing
                 dynamic content unlike any Udemy course!
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; Weekly Full-Stack mastermind coaching calls providing
+                ✅ &nbsp; Access to exclusive Slack & Discord communities
               </p>
-              dynamic content unlike any Udemy course!
             </div>
             <Link
               to="/contact"
               className="flex justify-center lg:justify-start"
             >
-              <button className="bg-orange-500 lg:text-[18px] text-[12px] lg:mt-16 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-200 hover:text-black duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide mb-10 lg:mb-0">
-                CLICK HERE TO BOOK YOUR FIRST{" "}
+              <button className="bg-orange-500 lg:text-[18px] text-[12px] lg:mt-16 font-extrabold px-6 py-4 shadow text-center rounded-md hover:bg-orange-500 hover:scale-105 hover:text-black duration-100 hover:transition-all hover:ease-in-out cursor-pointer text-gray-100 leading-tight tracking-wide mb-10 lg:mb-0">
+                CLICK TO BOOK YOUR FIRST{" "}
                 <span className="text-black">FREE</span> CLASS!{" "}
               </button>
             </Link>
           </div>
         </div>
       </div>
-      <div className="h-fit w-full bg-gray-200 p-10">
+      <div className="h-full w-full bg-gray-200 p-10">
         <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly">
           <img
             className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
           />
           <img
             className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/OOP.svg/1280px-OOP.svg.png"
           />
           <img
             className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png"
           />
           <img
             className="w-auto h-24 object-contain"
-            src="https://everyday.codes/wp-content/uploads/2020/01/0-U2DmhXYumRyXH6X1.png"
-          />
-          <img
-            className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
-          />
-          <img
-            className="w-auto h-24 object-contain"
-            src="https://miro.medium.com/max/1400/1*RdowFHAWDgkkwjXkQW0yNQ.png"
-          />
-          <img
-            className="w-auto h-24 object-contain"
-            src="https://nx.dev/documentation/shared/jest-logo.png"
-          />
-          <img
-            className="w-auto h-24 object-contain"
-            src="https://mui.com/static/logo.png"
-          />
-          <img
-            className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1280px-Django_logo.svg.png"
           />
         </div>
       </div>
       <div className="h-full w-full bg-gray-200 p-10">
         <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly">
           <img
-            className="w-auto h-24 object-contain "
-            src="https://www.the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
+            className="w-auto h-24 object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
           />
           <img
             className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
-          />
-          <img
-            className="w-auto h-32"
-            src="https://www.svgrepo.com/show/303232/mongodb-logo.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1200px-PyCharm_Icon.svg.png"
           />
           <img
             className="w-auto h-24 object-contain"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
+            src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png"
           />
           <img
             className="w-auto h-24 object-contain"
@@ -128,50 +103,38 @@ function Python() {
       </div>
       <div className="mt-28">
         <div className="text-center text-gray-700 font-extrabold text-3xl">
-          <p>Learn the Tech behind top companies like...</p>
+          <p>Learn to build clones of top companies like...</p>
           <div className="lg:flex grid grid-cols-3 justify-items-center gap-12 lg:items-center lg:justify-evenly p-20">
             <img
               className="w-auto lg:h-14
                h-auto"
-              src="https://icon-library.com/images/facebook-svg-icon/facebook-svg-icon-29.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
             />
             <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__480.png"
+              className="w-auto lg:h-16 h-auto"
+              src="https://cdn.worldvectorlogo.com/logos/pinterest-1.svg"
             />
             <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202204080353"
+              className="w-auto lg:h-16 h-auto"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png"
             />
             <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/931/524/TESLA-LOGO.jpg?ve=1&tl=1"
+              className="w-auto lg:h-16 h-auto"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/800px-Firefox_logo%2C_2019.svg.png"
             />
             <img
-              className="w-auto lg:h-14 h-auto"
+              className="w-auto lg:h-16 h-auto"
               src="https://play-lh.googleusercontent.com/8Vw-7MAm558750a4M55fiOlUf7lP2cYnFuqSWynrygIiyEEiQQDa_xxHKYOX83L0UD2T"
             />
             <img
               className="w-auto lg:h-14 h-auto"
-              src="https://cdn.arstechnica.net/wp-content/uploads/2018/08/Netflix_Logo_Digital_Video-800x450.jpg"
-            />
-            <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg"
-            />
-            <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png"
-            />
-            <img
-              className="w-auto lg:h-14 h-auto"
-              src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png"
+              src="https://www.apkmirror.com/wp-content/uploads/2021/05/94/60b08fb60e64c.png"
             />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
@@ -180,13 +143,13 @@ function Python() {
             Python 101
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, Sonny will deliver a Full Stack Mastermind coaching
+            Every week, techPedia will deliver a backend Mastermind coaching
             <br />
             call which many describe as 'Worth more than a University Degree
             itself!', so buckle up!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/WquJvpFSGWxoQTfjf7uQ_tezjWY97Qe6ILAidkyjJ_icons8-leadership.png"
@@ -195,13 +158,13 @@ function Python() {
             Weekly Coaching Calls
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, Sonny will deliver a Full Stack Mastermind coaching
+            Every week, techPedia will deliver a backend Mastermind coaching
             <br />
             call which many describe as 'Worth more than a University Degree
             itself!', so buckle up!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://yt3.ggpht.com/ytc/AKedOLS2OOXtmIHu0Tf1TmWITVrHNktn-MVXK3XRjwf4YA=s900-c-k-c0x00ffffff-no-rj"
@@ -211,14 +174,14 @@ function Python() {
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
             Ever heard the saying "your network is your net worth", well... with
-            the PAPA fam, we take this to a WHOLE new level! - Dedicated support
-            24/7, accountability, motivation, its all here inside the PAPA fam
-            community.
+            the techPedia fam, we take this to a WHOLE new level! - Dedicated
+            support 24/7, accountability, motivation, its all here inside the
+            techPedia fam community.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 gap-5 lg:gap-12 w-full p-10">
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/0oBZSc5RLCZvSL6re7ww_emoji-icon-glossy-06-01-activities-award-medal-military-medal-72dpi-forPersonalUseOnly.png"
@@ -229,11 +192,11 @@ function Python() {
           <p className="text-gray-500 leading-relaxed tracking-wider">
             This course is designed to cover ALL elements of Web development,
             <br />
-            including Frontend technologies, Backend technologies & Everything
-            in between!
+            including python technologies, Backend technologies & Everything in
+            between!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
             src="https://cdn.technobezz.com/files/uploads/2020/06/discord_main-1-1280x720-1.jpg"
@@ -242,32 +205,32 @@ function Python() {
             Discort community
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, Sonny will deliver a Full Stack Mastermind coaching
+            Every week, techPedia will deliver a backend Mastermind coaching
             <br />
             call which many describe as 'Worth more than a University Degree
             itself!', so buckle up!
           </p>
         </div>
-        <div className="shadow-xl rounded p-10 text-center max-w-full h-fit">
+        <div className="shadow-xl rounded p-10 text-center max-w-full h-full">
           <img
             className="h-24 m-auto"
-            src="https://www.seekpng.com/png/detail/7-79869_dollar-png-free-download-dollar-logo.png"
+            src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/jgr7hIsOTqmftTmuj39S_41uNySGSRSmmduJHzCGX_icons8-get_cash.png"
           />
           <h1 className="text-center text-gray-700 font-bold text-3xl p-10">
             Earn after learn
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Ever heard the saying "your network is your net worth", well... with
-            the PAPA fam, we take this to a WHOLE new level! - Dedicated support
-            24/7, accountability, motivation, its all here inside the PAPA fam
-            community.
+            Everything you need to go from ZERO to landing your first of many
+            $$$'s We teach you how to take your skill & passion for programming
+            and transform that into a sustainable income which will change your
+            life.
           </p>
         </div>
       </div>
       <div className="w-[90%] bg-black m-auto p-10">
         <h1 className="font-extrabold text-center text-gray-50 text-4xl">
           What's Inside Zero to{" "}
-          <span className="text-orange-500"> FrontEnd </span> Hero!?
+          <span className="text-orange-500"> Python </span> Hero!?
         </h1>
         <p className="text-center text-xl text-white font-light pt-5 leading-relaxed tracking-wider">
           Know <span className="font-extrabold underline">EXACTLY </span>what
@@ -278,21 +241,16 @@ function Python() {
       <PythonTimeShedule
         week="1"
         timing="4 Hours 48 Minutes"
-        text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
+        text="Intro to Saturday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Python Into "
       />
       <PythonTimeShedule
         week="2"
-        timing="3 Hours 48 Minutes"
-        text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
-      />
-      <PythonTimeShedule
-        week="3"
-        timing="5 Hours 48 Minutes"
-        text="Intro to Wednesday Meetings - Productivity Hacks - Book Recommendations - VS Code Extensions - Props & State - Class and Functional Components"
+        timing="4 Hours 48 Minutes"
+        text="Intro to Saturday Meetings - Python Basics - Loops Basic  - Props & State - Class and Functional Components"
       />
       <div className="max-w-[70%] m-auto shadow-lg rounded-lg p-5">
         <h1 className="lg:text-xl font-bold p-2">
-          + 42 Weeks More! With total of 60 hour of video study!
+          + 20 Weeks More! With total of 80 hour of video study!
         </h1>
       </div>
       <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
@@ -318,7 +276,7 @@ function Python() {
       </div>
       <div className="max-w-[60%] m-auto shadow-md p-5">
         <h1 className="lg:text-xl font-bold px-3 py-4">
-          💠 🔐 PAPA Mentorship Coaching Calls [Diamond Members Only]
+          💠 🔐 techPedia Mentorship Coaching Calls [Diamond Members Only]
         </h1>
       </div>
       <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
@@ -329,10 +287,10 @@ function Python() {
           There's MORE!?
         </h1>
         <p className="text-gray-500 p-5 lg:text-xl max-w-[80%] leading-tight rounded-lg tracking-wide m-auto text-center">
-          We did it, we have made the perfect JavaScript and Next.js eBooks
-          which will be your Ultimate Cheatsheet that will guide you through
-          JavaScript and Next.js with ease. These eBooks contain everything you
-          need to know to become a programming god...No exaggerations!
+          We did it, we have made the perfect tech cource eBooks which will be
+          your Ultimate Cheatsheet that will guide you through the technology
+          with ease. These eBooks contain everything you need to know to become
+          a programming god...No exaggerations!
         </p>
       </div>
       <PythonPriceCard />
