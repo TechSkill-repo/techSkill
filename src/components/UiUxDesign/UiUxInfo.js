@@ -13,7 +13,7 @@ function UiUx() {
         <UiUxCards
           title="Adobe XD"
           img="https://cdn.worldvectorlogo.com/logos/adobe-xd-2.svg"
-          text="dobe XD is the Adobe prototyping tool for user experience and interaction designers. Adobe XD features are used for creating wireframes, prototypes, and screen designs for digital products such as websites and mobile apps."
+          text="Adobe XD is the Adobe prototyping tool for user experience and interaction designers. Adobe XD features are used for creating wireframes, prototypes, and screen designs for digital products such as websites and mobile apps."
         />
         <UiUxCards
           title="Figma"

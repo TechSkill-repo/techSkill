@@ -1,5 +1,6 @@
 import React from "react";
 import { BiRupee } from "react-icons/bi";
+import { AiOutlineCaretRight } from "react-icons/ai";
 
 function Cards({ title, img, timing, pricing, footerText, cutPrice }) {
   return (
@@ -17,9 +18,6 @@ function Cards({ title, img, timing, pricing, footerText, cutPrice }) {
           <div className="font-light text-left text-gray-600 text-md mb-2">
             🕐 More than {timing} hours
           </div>
-          <div className="font-light text-left my-2 flex items-center text-gray-700 text-md mb-0">
-            🌎 English Hindi
-          </div>
           <p className="tetx-md text-gray-500 py-2">
             🤙 Live Weekly <span className="text-orange-500">Coaching</span>{" "}
             calls
@@ -27,17 +25,22 @@ function Cards({ title, img, timing, pricing, footerText, cutPrice }) {
           <p className="tetx-md text-gray-500 ">
             ✅ 1 o 1 <span className="text-orange-500">Doubt Clearing</span>
           </p>
-          <div className="flex items-center mt-4 text-left text-base lg:text-xl text-gray-600 font-semibold">
-            🤑 Starting up at{" "}
+          <div className="flex items-center mt-4 text-left text-sm lg:text-xl text-gray-600 font-semibold">
+            🤑 Starting at
             <span className="flex items-center text-orange-500">
               <BiRupee /> {pricing}/-
             </span>
-            <span className="text-sm line-through flex items-center ml-5">
+            <span className="text-xs line-through flex items-center ml-3">
               <BiRupee /> {cutPrice}/-
             </span>
           </div>
         </div>
-        <div className="bg-orange-400 text-center  text-gray-100 font-bold rounded-b-sm">
+        <div className="flex justify-center">
+          <div className="lg:hidden flex items-center text-xs rounded-full bg-orange-500 w-fit p-2 text-white mb-4">
+            Read More <AiOutlineCaretRight />
+          </div>
+        </div>
+        <div className="bg-orange-500 text-center  text-gray-100 font-bold rounded-b-sm">
           <p> {footerText}</p>
         </div>
       </div>

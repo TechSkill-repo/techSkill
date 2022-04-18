@@ -20,7 +20,7 @@ function GraphicDesigning() {
               <br />
               <span className="text-orange-400">With Graphic Designing 💸</span>
             </h1>
-            <div className="text-center lg:text-left space-y-3 mt-10">
+            <div className="text-left space-y-3 mt-10">
               <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 ✅ &nbsp; NO designing experience required
               </p>

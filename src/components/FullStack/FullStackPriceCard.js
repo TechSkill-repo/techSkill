@@ -43,7 +43,7 @@ function FullStackPriceCard() {
               <b className="text-gray-700"> GITHUB REPO (Worth Rs990)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to frontend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
                 96+ Hours of content (Worth Rs5000+)
@@ -123,14 +123,14 @@ function FullStackPriceCard() {
               <b className="text-gray-700"> GITHUB REPO (Worth Rs990)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to frontend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
                 160+ Hours of content (Worth Rs 12000)
               </b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
+              ⭐️ LIFETIME ACCESS to Zero to frontend{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">

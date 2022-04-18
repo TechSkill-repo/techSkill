@@ -43,14 +43,14 @@ function FrountEndPriceCard() {
               <b className="text-gray-700"> GITHUB REPO (Worth Rs470)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to frontend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
                 40+ Hours of content (Worth Rs3000+)
               </b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
+              ⭐️ LIFETIME ACCESS to Zero to frontend{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
@@ -123,14 +123,14 @@ function FrountEndPriceCard() {
               <b className="text-gray-700"> GITHUB REPO (Worth Rs470)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to frontend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
                 160+ Hours of content (Worth Rs 9000)
               </b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
+              ⭐️ LIFETIME ACCESS to Zero to frontend{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
@@ -148,7 +148,7 @@ function FrountEndPriceCard() {
           </div>
           <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
-            Split into 3 Monthly Payments of £150
+            Split into 10 Monthly Payments of Rs1599
           </p>
           <div className="flex justify-center p-10">
             <Link to="/contact" className=" bg-black   w-full text-center ">

@@ -34,34 +34,34 @@ function Frontend() {
           {" "}
         </div>
         <div className='w-full  h-full bg-[url("https://blog.logrocket.com/wp-content/uploads/2020/05/NGX_admin.png")] bg-cover bg-center  '>
-          <div className="px-16   relative z-40">
-            <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
+          <div className="lg:px-16 px-8 relative z-40">
+            <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize  lg:text-left text-3xl">
               Zero to WebDev Hero
               <br />
               <span className="text-orange-400">
                 Website Devlopment Mastry🔥
               </span>
             </h1>
-            <div className="text-center lg:text-left space-y-3 mt-10">
-              <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
+            <div className="text-left mb-5 space-y-3 mt-10">
+              <p className="  text-gray-50 lg:p-0 p-2 text-xl   ">
                 ✅ &nbsp; NO CODING experience required
               </p>
-              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+              <p className=" text-gray-50 lg:p-0 p-2 text-xl  ">
                 {" "}
                 ✅ &nbsp; From learning the Basics of Web Development to
                 Mastering React!
               </p>
-              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+              <p className=" text-gray-50 lg:p-0 p-2 text-xl  ">
                 {" "}
                 ✅ &nbsp; We teach exciting technologies such as Redux,
                 Firebase, React, MaterialUi, Tailwind + MORE
               </p>
-              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+              <p className=" text-gray-50 lg:p-0 p-2 text-xl  ">
                 {" "}
-                ✅ &nbsp; Weekly Fruntend mastermind coaching calls providing
+                ✅ &nbsp; Weekly frontend mastermind coaching calls providing
                 dynamic content unlike any Udemy course!
               </p>
-              <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
+              <p className=" text-gray-50 lg:p-0 p-2 text-xl  ">
                 {" "}
                 ✅ &nbsp;Access to exclusive Slack & Discord communities
               </p>
@@ -190,7 +190,7 @@ function Frontend() {
             Discort Group
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, techpedia will deliver a Fruntend Mastermind coaching
+            Every week, techpedia will deliver a frontend Mastermind coaching
             <br />
             call which many describe as 'Worth more than a University Degree
             itself!', so buckle up!

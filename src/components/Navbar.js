@@ -6,7 +6,7 @@ import { FcServices } from "react-icons/fc";
 function Navbar() {
   return (
     <>
-      <header className="fixed bg-black opacity-90 w-screen py-5 px-10 z-50">
+      <header className="fixed bg-black opacity-90 w-screen py-5 px-5 lg:px-10 z-50">
         <div className="hidden md:flex w-full h-full item-center justify-between">
           <Link to="/" className="flex items-center gap-2 hover:cursor-pointer">
             <img src={logo} alt="logo" className="w-48 object-cover" />
@@ -39,9 +39,11 @@ function Navbar() {
           <Link to="/" className="flex items-center gap-2 hover:cursor-pointer">
             <img src={logo} alt="logo" className="w-48 object-cover" />
           </Link>
-          <div className="bg-orange-500 text-sm font-semibold px-2 lg:px-4 py-2 lg:py-1.5 text-center rounded-md hover:text-hiadingColor duration-100 transition-all ease-in-out cursor-pointer">
-            Join Now
-          </div>
+          <Link to="/contact">
+            <div className="bg-orange-500 text-sm font-semibold px-2 lg:px-4 py-2 lg:py-1.5 text-center rounded-md hover:text-hiadingColor duration-100 transition-all ease-in-out cursor-pointer">
+              Join Now
+            </div>
+          </Link>
         </div>
       </header>
     </>
