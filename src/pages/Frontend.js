@@ -42,7 +42,7 @@ function Frontend() {
                 Website Devlopment Mastry🔥
               </span>
             </h1>
-            <div className="text-center lg:text-left space-y-3 mt-10">
+            <div className="text-left space-y-3 mt-10">
               <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 ✅ &nbsp; NO CODING experience required
               </p>
@@ -58,7 +58,7 @@ function Frontend() {
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; Weekly Fruntend mastermind coaching calls providing
+                ✅ &nbsp; Weekly frontend mastermind coaching calls providing
                 dynamic content unlike any Udemy course!
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
@@ -190,7 +190,7 @@ function Frontend() {
             Discort Group
           </h1>
           <p className="text-gray-500 leading-relaxed tracking-wider">
-            Every week, techpedia will deliver a Fruntend Mastermind coaching
+            Every week, techpedia will deliver a frontend Mastermind coaching
             <br />
             call which many describe as 'Worth more than a University Degree
             itself!', so buckle up!

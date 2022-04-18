@@ -43,7 +43,7 @@ function MobileAppPricing() {
               <b className="text-gray-700"> GITHUB REPO (Worth Rs990)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to frontend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
                 80+ Hours of content (Worth Rs5000+)
@@ -55,7 +55,7 @@ function MobileAppPricing() {
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ 4 Static Minor Projects
-              <b className="text-gray-700"> (weekly with Sonny)</b>
+              <b className="text-gray-700"> (weekly with techpedia)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Weekly 4 hours coaching Zoom calls
@@ -68,7 +68,7 @@ function MobileAppPricing() {
           </div>
           <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
-            Split into 3 Monthly Payments of £150
+            Split into 5 Monthly Payments of Rs 1250
           </p>
           <div className="flex justify-center p-10">
             <Link to="/contact" className=" bg-black   w-full text-center ">
@@ -124,14 +124,14 @@ function MobileAppPricing() {
               <b className="text-gray-700"> GITHUB REPO (Worth Rs990)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ Access to Fruntend Mastermind Coaching |
+              ⭐️ Access to frontend Mastermind Coaching |
               <b className="text-gray-700">
                 {" "}
                 160+ Hours of content (Worth Rs 12000)
               </b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              ⭐️ LIFETIME ACCESS to Zero to Fruntend{" "}
+              ⭐️ LIFETIME ACCESS to Zero to frontend{" "}
               <b className="text-gray-700">Hero Modules</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
@@ -149,7 +149,7 @@ function MobileAppPricing() {
           </div>
           <div className="border-solid border-b-2 w-[80%] m-auto border-gray-300"></div>
           <p className="text-center text-lg p-5 lg:text-xl text-sky-600 lg:pt-10">
-            Split into 3 Monthly Payments of £150
+            Split into 10 Monthly Payments of Rs1599
           </p>
           <div className="flex justify-center p-10">
             <Link to="/contact" className=" bg-black   w-full text-center ">

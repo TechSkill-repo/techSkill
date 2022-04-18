@@ -13,7 +13,7 @@ function Hero() {
             Stop studying all day <br /> Now time to{" "}
             <span className="text-orange-400">Learn and earn 💸</span>
           </h1>
-          <div className="text-center lg:text-left space-y-3 mt-10">
+          <div className="text-left space-y-3 mt-10">
             <p className="  text-gray-50 lg:text-xl ">
               ✅ &nbsp; How to become a developer in 90 days even if you're a
               complete beginner.

@@ -18,7 +18,7 @@ function Card() {
         <Link to="/frontend-dev" className="w-full">
           <Cards
             title="Website Mastery"
-            img={webImage}
+            img="https://miro.medium.com/max/750/1*3T7J7csXY8u36acofw5N8g.jpeg"
             timing="40+"
             pricing="4990"
             cutPrice="12990"
@@ -28,7 +28,7 @@ function Card() {
         <Link to="/mobileapp-dev" className="w-full">
           <Cards
             title="Mobile App Dev Mastry"
-            img={mobileImage}
+            img="https://miro.medium.com/max/640/0*lXvptcygEtjJY1HG"
             timing="60+"
             pricing="7590"
             cutPrice="16990"
@@ -37,7 +37,7 @@ function Card() {
         <Link to="/fullstack" className="w-full">
           <Cards
             title="Full Stack Web Mastry"
-            img={fullStack}
+            img="https://www.teahub.io/photos/full/22-221879_-net-full-stack-developer.jpg"
             timing="80+"
             pricing="8990"
             cutPrice="23000"
@@ -48,7 +48,7 @@ function Card() {
         <Link to="python" className="w-full">
           <Cards
             title="Python Mastry"
-            img={python}
+            img="https://www.mindinventory.com/blog/wp-content/uploads/2019/08/python-pros-cons-1024x512.png"
             timing="44+"
             pricing="5999"
             cutPrice="12300"
@@ -57,7 +57,7 @@ function Card() {
         <Link to="/uiuxDesigning" className="w-full">
           <Cards
             title="UI/UX Designing"
-            img={uiux}
+            img="https://www.eiosys.com/wp-content/uploads/2021/04/Top-UI-UX-tools.jpeg"
             timing="25+"
             pricing="3990"
             cutPrice="7000"
@@ -87,7 +87,7 @@ function Card() {
         <Link to="/" className="w-full">
           <Cards
             title="MicroSoft Office"
-            img="https://toivoiban.com/wp-content/uploads/2020/09/Nhung-dieu-can-biet-ve-microsoft-office.png"
+            img="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-M365HP-1920x720:VP1-539x400"
             timing="30"
             pricing="3990"
             footerText="Coming Soon..."
@@ -96,7 +96,7 @@ function Card() {
         <Link to="" className="w-full">
           <Cards
             title="Digital Marketting"
-            img="https://multichannelmerchant.com/wp-content/uploads/2018/07/digitalmarketing850.jpg"
+            img="https://www.simplilearn.com/ice9/free_resources_article_thumb/history_and_evolution_of_digital_marketing.jpg"
             timing="30"
             pricing="5990"
             cutPrice="12000"

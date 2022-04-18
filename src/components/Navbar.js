@@ -6,7 +6,7 @@ import { FcServices } from "react-icons/fc";
 function Navbar() {
   return (
     <>
-      <header className="fixed bg-black opacity-90 w-screen py-5 px-10 z-50">
+      <header className="fixed bg-black opacity-90 w-screen py-5 px-5 lg:px-10 z-50">
         <div className="hidden md:flex w-full h-full item-center justify-between">
           <Link to="/" className="flex items-center gap-2 hover:cursor-pointer">
             <img src={logo} alt="logo" className="w-48 object-cover" />

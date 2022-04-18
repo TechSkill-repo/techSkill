@@ -25,7 +25,8 @@ function Footer() {
             Proven Courses & Real Results 😍
           </h1>
           <p className=" text-center px-10 lg:px-40 py-6 lg:text-[24px] text-lg font-semiboldbold text-gray-50 leading-relaxed tracking-wider">
-            No certifications or awards here. We focus on giving you real
+            No certifications or awards make you earn. We focus on giving you
+            real
             <br />
             developer skills that bring you real results: Clients, jobs, self-
             <br />
@@ -41,7 +42,7 @@ function Footer() {
                 {" "}
                 <input
                   type="text"
-                  placeholder="example@gmail.com"
+                  placeholder="Please Enter Your Email"
                   className="bg-white h-14 w-full px-4 pr-20 rounded-md focus:outline-none hover:cursor-pointer"
                   name="email"
                   value={email}
@@ -49,7 +50,10 @@ function Footer() {
                     setEmail(e.target.value);
                   }}
                 />{" "}
-                <button className="h-10 rounded bg-orange-500 absolute top-2 text-sm  font-semiboldbold right-2 px-3 text-white hover:bg-gray-800 ">
+                <button
+                  disabled={!email}
+                  className="h-10 rounded bg-orange-500 absolute top-2 text-sm  font-semiboldbold right-2 px-3 text-white hover:bg-gray-800 "
+                >
                   Subscribe Now
                 </button>{" "}
               </form>
