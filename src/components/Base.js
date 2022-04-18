@@ -21,7 +21,7 @@ function Base() {
               Email:
             </h2>
             <p className="text-lg font-normal text-gray-900  dark:text-white">
-              example@gmail.com
+              support@techpedia.tech
             </p>
           </div>
           <div>
@@ -29,7 +29,7 @@ function Base() {
               Phone.No:
             </h2>
             <p className="text-lg font-normal text-gray-900  dark:text-white">
-              +91 0987171126
+              +91 79807 58404
             </p>
           </div>
           <div>

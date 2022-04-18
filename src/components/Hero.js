@@ -8,28 +8,28 @@ function Hero() {
         {" "}
       </div>
       <div className='w-full  h-full bg-[url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2186302/settings_images/pt3dMMAKQ0m7zWobyr55_photo-1484417894907-623942c8ee29.webp")] bg-cover bg-center  '>
-        <div className="px-16   relative z-40">
-          <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
+        <div className="lg:px-16 px-8  relative z-40">
+          <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize lg:text-left text-3xl">
             Stop studying all day <br /> Now time to{" "}
             <span className="text-orange-400">Learn and earn 💸</span>
           </h1>
           <div className="text-left space-y-3 mt-10">
-            <p className="  text-gray-50 lg:text-xl ">
+            <p className="  text-gray-50 text-xl  ">
               ✅ &nbsp; How to become a developer in 90 days even if you're a
               complete beginner.
             </p>
-            <p className=" text-gray-50 lg:text-xl ">
+            <p className=" text-gray-50 text-xl  ">
               {" "}
-              👨‍💻 &nbsp; What to get a job in some big tech compnease like make a
+              👨‍💻 &nbsp; What to get a job in some big tech companies like make a
               bundle of money.
             </p>
-            <p className=" text-gray-50 lg:text-xl ">
+            <p className=" text-gray-50 text-xl ">
               {" "}
-              🔥 &nbsp; Learna the technology and be a self confident devloper.
+              🔥 &nbsp; Learn the technology and be a self confident developer.
             </p>
-            <p className=" text-gray-50 lg:text-xl ">
+            <p className=" text-gray-50 text-xl  ">
               {" "}
-              💯 &nbsp; We will offer you the best guidence and a first
+              💯 &nbsp; We will offer you the best guidance and a first
               placement as a intern.
             </p>
           </div>

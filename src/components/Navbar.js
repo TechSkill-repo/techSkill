@@ -39,9 +39,11 @@ function Navbar() {
           <Link to="/" className="flex items-center gap-2 hover:cursor-pointer">
             <img src={logo} alt="logo" className="w-48 object-cover" />
           </Link>
-          <div className="bg-orange-500 text-sm font-semibold px-2 lg:px-4 py-2 lg:py-1.5 text-center rounded-md hover:text-hiadingColor duration-100 transition-all ease-in-out cursor-pointer">
-            Join Now
-          </div>
+          <Link to="/contact">
+            <div className="bg-orange-500 text-sm font-semibold px-2 lg:px-4 py-2 lg:py-1.5 text-center rounded-md hover:text-hiadingColor duration-100 transition-all ease-in-out cursor-pointer">
+              Join Now
+            </div>
+          </Link>
         </div>
       </header>
     </>

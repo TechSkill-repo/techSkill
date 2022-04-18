@@ -12,7 +12,7 @@ function Card() {
   return (
     <div className="max-w-[1440px] mx-auto my-6 py-10">
       <h1 className="text-center text-5xl font-extrabold pb-10 text-gray-600">
-        Explore our cources...💯
+        Explore our courses...💯
       </h1>
       <div className="grid grid-cols-1  justify-items-center lg:grid-cols-3 gap-5 lg:gap-20 m-10">
         <Link to="/frontend-dev" className="w-full">
