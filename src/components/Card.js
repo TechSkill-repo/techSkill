@@ -76,7 +76,7 @@ function Card() {
       <div className="grid grid-cols-1  justify-items-center lg:grid-cols-3 gap-5 lg:gap-20 m-10">
         <Link to="" className="w-full">
           <Cards
-            title="Eathical Hacking"
+            title="Ethical Hacking"
             img="https://tetacourse.com/uploads/mini/full/ef/1622837522_complete-ethical-hacking-course-2021-beginner-to-advanced.webp"
             timing="30"
             pricing="8990"
