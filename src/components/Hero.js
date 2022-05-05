@@ -20,7 +20,7 @@ function Hero() {
             </p>
             <p className=" text-gray-50 text-xl  ">
               {" "}
-              👨‍💻 &nbsp; What to get a job in some big tech companies like make a
+              👨‍💻 &nbsp; Want to get a job in some big tech companies like make a
               bundle of money.
             </p>
             <p className=" text-gray-50 text-xl ">
