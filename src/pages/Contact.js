@@ -31,7 +31,7 @@ function Contact() {
     setCoursePlan("");
     setPhoneNo("");
     setState("");
-    window.alert("Submitted 👍");
+    window.alert("Press OK to submit 👍");
   };
 
   return (
