@@ -35,7 +35,7 @@ function MobileAppPricing() {
               <b className="text-gray-700"> 5 monts Access.</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
-              👊CSS Disigning 👊JavaScript 👊ReactNative <br />
+              👊CSS Designing 👊JavaScript 👊ReactNative <br />
               👊npm 👊Github 👊ReactNavigation
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">

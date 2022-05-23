@@ -26,7 +26,7 @@ function UiUx() {
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
-                ✅ &nbsp; From learning the Basics of WEB & Mobile Disigning!
+                ✅ &nbsp; From learning the Basics of WEB & Mobile Designing!
               </p>
               <p className=" text-gray-50 lg:p-0 p-2 lg:text-xl ">
                 {" "}
