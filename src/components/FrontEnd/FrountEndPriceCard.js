@@ -55,7 +55,7 @@ function FrountEndPriceCard() {
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ 4 Static Minor Projects
-              <b className="text-gray-700"> (weekly with Sonny)</b>
+              <b className="text-gray-700"> (weekly with techpedia)</b>
             </p>
             <p className="text-lg font-semibold text-gray-500 py-3">
               ⭐️ Weekly 4 hours coaching Zoom calls
