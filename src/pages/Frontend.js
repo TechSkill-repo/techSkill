@@ -130,7 +130,7 @@ function Frontend() {
             This course is designed to cover ALL elements of Web development,
             <br />
             <br />
-            including Frontend technologies, disigning technologies & Everything
+            including Frontend technologies, designing technologies & Everything
             in between!
           </p>
         </div>
