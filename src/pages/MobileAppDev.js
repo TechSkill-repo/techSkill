@@ -3,7 +3,7 @@ import Base from "../components/Base";
 import Footer from "../components/Footer";
 import Nativelogo from "../assets/nativelogo.png";
 import MobileApp from "../components/MobileApp/MobileApp";
-import MobileAppPricing from "../components/MobileApp/MobileAppPricing";
+// import MobileAppPricing from "../components/MobileApp/MobileAppPricing";
 import MobileAppTimeShedule from "../components/MobileApp/MobileAppTimeShedule";
 import { Link } from "react-router-dom";
 
@@ -320,7 +320,7 @@ function MobileAppDev() {
           a programming god...No exaggerations!
         </p>
       </div>
-      <MobileAppPricing />
+      {/* <MobileAppPricing /> */}
       <Footer />
       <Base />
     </div>
