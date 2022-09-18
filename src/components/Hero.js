@@ -10,27 +10,16 @@ function Hero() {
       <div className='w-full  h-full bg-[url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2186302/settings_images/pt3dMMAKQ0m7zWobyr55_photo-1484417894907-623942c8ee29.webp")] bg-cover bg-center  '>
         <div className="px-16   relative z-40">
           <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
-            Stop studying all day <br /> Now time to{" "}
-            <span className="text-orange-400">Learn and earn 💸</span>
+            Where technology teams <br /> build better
+            <span className="text-orange-500"> skills, faster</span>
           </h1>
           <div className="text-center lg:text-left space-y-3 mt-10">
             <p className="  text-gray-50 lg:text-xl ">
-              ✅ &nbsp; How to become a developer in 90 days even if you're a
-              complete beginner.
-            </p>
-            <p className=" text-gray-50 lg:text-xl ">
-              {" "}
-              👨‍💻 &nbsp; What to get a job in some big tech compnease like make a
-              bundle of money.
-            </p>
-            <p className=" text-gray-50 lg:text-xl ">
-              {" "}
-              🔥 &nbsp; Learna the technology and be a self confident devloper.
-            </p>
-            <p className=" text-gray-50 lg:text-xl ">
-              {" "}
-              💯 &nbsp; We will offer you the best guidence and a first
-              placement as a intern.
+              Technology teams are only as successful as their skills are
+              relevant. With access to <br /> expert-authored courses and
+              content, skill assessments and analytics, Pluralsight <br />{" "}
+              Skills gives you the most effective path to building
+              business-critical skills.
             </p>
           </div>
           <Link to="/contact" className="flex justify-center lg:justify-start">

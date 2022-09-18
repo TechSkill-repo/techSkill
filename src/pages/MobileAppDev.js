@@ -18,7 +18,7 @@ function MobileAppDev() {
           <div className="px-16   relative z-40">
             <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
               Learn mobile App Devlopment <br /> with
-              <span className="text-orange-400"> React Native🔥</span>
+              <span className="text-orange-500"> React Native🔥</span>
             </h1>
             <div className="text-center lg:text-left space-y-3 mt-10">
               <p className="  text-gray-50 lg:p-0 p-2 lg:text-xl ">
@@ -282,7 +282,7 @@ function MobileAppDev() {
       </div>
       <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
         <h1 className="lg:text-4xl text-2xl text-center font-bold p-2">
-          <span className=" text-orange-400 p-2 "> But wait...</span> There's
+          <span className=" text-orange-500 p-2 "> But wait...</span> There's
           MORE!?
         </h1>
         <p className="text-gray-500 p-5 text-xl max-w-[70%] leading-tight tracking-wide m-auto text-center">
@@ -308,7 +308,7 @@ function MobileAppDev() {
       </div>
       <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
         <h1 className="lg:text-4xl text-2xl text-center font-bold p-2">
-          <span className=" text-orange-400 p-2 ">
+          <span className=" text-orange-500 p-2 ">
             And we still aren't done yet....
           </span>{" "}
           There's MORE!?

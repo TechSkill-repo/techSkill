@@ -17,7 +17,7 @@ function Python() {
           <div className="px-16   relative z-40">
             <h1 className="lg:text-6xl lg:pt-44 pt-32 font-sans text-gray-50 font-extrabold leading-tight tracking-wide capitalize text-center lg:text-left text-3xl">
               The best Python Cource <br />{" "}
-              <span className="text-orange-400">
+              <span className="text-orange-500">
                 Now Time to master Python 😎
               </span>
             </h1>
@@ -255,7 +255,7 @@ function Python() {
       </div>
       <div className="max-w-[85%] m-auto shadow-lg my-20 p-5">
         <h1 className="lg:text-4xl text-2xl text-center font-bold p-2">
-          <span className=" text-orange-400 p-2 "> But wait...</span> There's
+          <span className=" text-orange-500 p-2 "> But wait...</span> There's
           MORE!?
         </h1>
         <p className="text-gray-500 p-5 text-xl max-w-[70%] leading-tight tracking-wide m-auto text-center">
@@ -281,7 +281,7 @@ function Python() {
       </div>
       <div className="max-w-[85%] m-auto shadow-xl my-20 p-5">
         <h1 className="lg:text-4xl text-2xl text-center font-bold p-2">
-          <span className=" text-orange-400 p-2 ">
+          <span className=" text-orange-500 p-2 ">
             And we still aren't done yet....
           </span>{" "}
           There's MORE!?
