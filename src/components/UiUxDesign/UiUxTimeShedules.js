@@ -5,7 +5,7 @@ function UiUxTimeShedule({ week, timing, text }) {
     <div className="my-10">
       <div className="max-w-[70%] m-auto">
         <h1 className="text-4xl font-bold p-3">
-          <span className="text-orange-400">Week</span> {week}
+          <span className="text-orange-500">Week</span> {week}
         </h1>
         <h1 className="text-2xl font-semibold py-2">🕜 {timing}</h1>
         <hr />
