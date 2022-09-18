@@ -36,7 +36,7 @@ function Base() {
       </div>
       <hr className="my-6 border-gray-100 sm:mx-auto dark:border-gray-400 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-orange-400 sm:text-center dark:text-gray-400">
+        <span className="text-sm text-orange-500 sm:text-center dark:text-gray-400">
           © 2022{" "}
           <a href="https://flowbite.com" className="hover:underline">
             Flowbite™
@@ -46,7 +46,7 @@ function Base() {
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
             href="#"
-            className="text-orange-400 hover:text-gray-900 dark:hover:text-white"
+            className="text-orange-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-7 h-7"
@@ -63,7 +63,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-orange-400 hover:text-gray-900 dark:hover:text-white"
+            className="text-orange-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-7 h-7"
@@ -80,7 +80,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-orange-400 hover:text-gray-900 dark:hover:text-white"
+            className="text-orange-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-7 h-7"
@@ -93,7 +93,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-orange-400 hover:text-gray-900 dark:hover:text-white"
+            className="text-orange-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-7 h-7"
@@ -110,7 +110,7 @@ function Base() {
           </a>
           <a
             href="#"
-            className="text-orange-400 hover:text-gray-900 dark:hover:text-white"
+            className="text-orange-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-7 h-7"
