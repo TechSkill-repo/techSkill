@@ -37,7 +37,7 @@ function Cards({ title, img, timing, pricing, footerText, cutPrice }) {
             </span>
           </div>
         </div>
-        <div className="bg-orange-400 text-center  text-gray-100 font-bold rounded-b-sm">
+        <div className="bg-orange-500 text-center  text-gray-100 font-bold rounded-b-sm">
           <p> {footerText}</p>
         </div>
       </div>
