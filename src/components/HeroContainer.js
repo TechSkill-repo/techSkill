@@ -94,12 +94,12 @@ function HeroContainer() {
           <img src={java} />
         </div>
       </div>
-      <h1 className="flex cursor-pointer justify-center align-center text-center pt-2 text-lg font-bold text-orange-500 ">
+      {/* <h1 className="flex cursor-pointer justify-center align-center text-center pt-2 text-lg font-bold text-orange-500 ">
         <span> View All our top trending courses </span>
         <span className="p-1.5">
           <AiFillCaretRight />
         </span>
-      </h1>
+      </h1> */}
     </>
   );
 }
